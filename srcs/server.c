@@ -141,6 +141,8 @@ int	main(int argc, char **argv)
 		if (!fork())
 		{
 			handle_conn(client_fd, buf);
+			close(client_fd);
+			exit(0);
 		}
 		close(client_fd);
 
