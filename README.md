@@ -1,4 +1,5 @@
-A simple TCP server receives messages and echoes them back to the server, written entirely in C
+A simple TCP server receives messages and echoes them back to the server, written entirely in C, it supports multiple connections at once.
+
 
 ## Compilation
 Just enter `make` in the terminal
